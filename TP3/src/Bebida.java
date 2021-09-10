@@ -3,14 +3,15 @@ public class Bebida extends Produto {
 	private int militros;
 	private Insumo composicao[];
 
-	public Bebida(String nome, String tipo, float preco,int militros, Insumo[] composicao) {
+	public Bebida(String nome, String tipo, float preco, int militros) {
 		super();
 		this.militros = militros;
-		this.composicao = composicao;
 		this.setNome(nome);
 		this.setTipo(tipo);
 		this.setPreco(preco);
-		this.setComposicao(composicao);
+	}
+	public void fazerBebida() {
+		
 	}
 	public int getMilitros() {
 		return militros;

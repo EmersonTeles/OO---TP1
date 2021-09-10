@@ -2,14 +2,15 @@ public class Hamburguer extends Produto {
 	
 	private float peso = 0;
 	private Insumo composicao[];
-	public Hamburguer(String nome, String tipo, float preco,float peso, Insumo[] composicao) {
+	public Hamburguer(String nome, String tipo, float preco,float peso) {
 		super();
 		this.peso = peso;
-		this.composicao = composicao;
 		this.setNome(nome);
 		this.setTipo(tipo);
 		this.setPreco(preco);
-		this.setComposicao(composicao);
+	}
+	public void FazerHamburguer() {
+		
 	}
 	public float getPeso() {
 		return peso;
