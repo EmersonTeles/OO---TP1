@@ -1,0 +1,18 @@
+public class Hamburguer extends Produto {
+	
+	private float peso = 0;
+	private Insumo composicao[];
+	public float getPeso() {
+		return peso;
+	}
+	public void setPeso(float peso) {
+		this.peso = peso;
+	}
+	public Insumo[] getComposicao() {
+		return composicao;
+	}
+	public void setComposicao(Insumo[] composicao) {
+		this.composicao = composicao;
+	}
+	 
+}

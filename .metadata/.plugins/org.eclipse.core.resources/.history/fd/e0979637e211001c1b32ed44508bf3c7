@@ -1,0 +1,8 @@
+
+public abstract class Produto {
+private String nome;
+private int id;
+private float preco;
+private String tipo;
+private float taxaDeLucro; 
+}

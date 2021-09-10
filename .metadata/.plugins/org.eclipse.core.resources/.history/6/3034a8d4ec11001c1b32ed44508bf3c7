@@ -1,0 +1,21 @@
+
+public class Bebida extends Produto {
+	private int militros;
+	private Insumo composicao[];
+	
+	public Bebida(String n, String t, int i, float p) {
+		super(n, t, i, p);
+	}
+	public int getMilitros() {
+		return militros;
+	}
+	public void setMilitros(int militros) {
+		this.militros = militros;
+	}
+	public Insumo[] getComposicao() {
+		return composicao;
+	}
+	public void setComposicao(Insumo[] composicao) {
+		this.composicao = composicao;
+	}
+}
