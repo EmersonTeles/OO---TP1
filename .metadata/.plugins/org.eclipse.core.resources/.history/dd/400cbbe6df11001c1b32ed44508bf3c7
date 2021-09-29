@@ -1,9 +1,0 @@
-public class Hamburguer {
-
-	private float peso = 0;
-	private float composicao[];
-	public Hamburguer() {
-	}
-
-	public 
-}
