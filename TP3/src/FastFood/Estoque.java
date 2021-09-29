@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Estoque {
 	@Override
 	public String toString() {
-		return "Estoque [item=" + item + ", quantidade=" + quantidade + "]";
+		return "Estoque [item=" + item + ", quantidade=" + quantidade + "]" ;
 	}
 	ArrayList<Insumo> item = new ArrayList<Insumo>();
 	ArrayList<Integer> quantidade = new ArrayList<>();
@@ -17,8 +17,13 @@ public class Estoque {
 	public void cadastrar(Insumo item, int quantidade) {
 		this.item.add(item);
 		this.quantidade.add(quantidade);
+		
 	}
 	public void editar() {
+		for (Insumo nome: item ) {
+			System.out.println(nome);
+			
+		}
 	}
 	public void deletar() {
 	}
